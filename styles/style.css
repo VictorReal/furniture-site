@@ -102,6 +102,7 @@ figure{
 }
 .call_btn:hover{
     background-color: lightgreen;
+    cursor: pointer;
 
 }
 main {
@@ -149,6 +150,7 @@ main {
 }
 #details-btn:hover{
     background-color: lightgreen;
+    cursor: pointer;
 }
 .smaller {
     font-size: 24px;
@@ -296,6 +298,7 @@ main {
 }
 #go-categ-btn:hover{
     background-color: lightgreen;
+    cursor: pointer;
 }
 #about-us{
     height: 785px;
@@ -385,6 +388,7 @@ main {
 }
 #ask-btn:hover{
     background-color: lightgreen;
+    cursor: pointer;
 }
 footer{
     position: absolute;
