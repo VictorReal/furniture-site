@@ -8,6 +8,12 @@
         url('../fonts/ProximaNova-Light.woff') format('woff');
        
 }
+html{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 body {
     position: relative;
     width: 1920px;
@@ -16,6 +22,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     background-color: #FFFFFF;
+    
 }
 header{
     display: flex;
@@ -93,13 +100,15 @@ figure{
     font-size: 18px;
     text-transform: uppercase;    
 }
+.call_btn:hover{
+    background-color: lightgreen;
+
+}
 main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
-
-
 .frst-container {
     position: relative;
     height: 785px;
@@ -137,6 +146,9 @@ main {
     font-size: 18px;
     color: #FFFFFF;
     border: #44C697;
+}
+#details-btn:hover{
+    background-color: lightgreen;
 }
 .smaller {
     font-size: 24px;
@@ -282,6 +294,9 @@ main {
     border: #44C697;
     text-transform: uppercase;
 }
+#go-categ-btn:hover{
+    background-color: lightgreen;
+}
 #about-us{
     height: 785px;
     width: 1920px;
@@ -367,6 +382,9 @@ main {
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 18px;
+}
+#ask-btn:hover{
+    background-color: lightgreen;
 }
 footer{
     position: absolute;
