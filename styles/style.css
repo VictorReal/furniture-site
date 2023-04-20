@@ -190,7 +190,7 @@ main {
     align-items: center;
     margin-top: 80px;   
 }
-#categ-head {
+.categ-head {
     font-size: 48px;
     display: flex;
     justify-content: center;
