@@ -177,7 +177,7 @@ main {
 .examp-txt-m p{
     margin: 5px;
 }
-#examp-hl{  
+.examp-hl{  
     font-size: 36px; 
     font-weight: 700;
     text-decoration: underline #44C697;
